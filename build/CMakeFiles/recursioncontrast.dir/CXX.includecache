@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dharper/projects/RecursionContrast/main.cpp
+iostream
+-
+iomanip
+-
+ctime
+-
+sys/time.h
+-
+unistd.h
+-
+stdlib.h
+-
+pthread.h
+-
+vector
+-
+math.h
+-
+
